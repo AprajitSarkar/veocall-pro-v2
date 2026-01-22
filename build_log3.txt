@@ -1,0 +1,36 @@
+﻿[36mvite v5.4.19 [32mbuilding for production...[36m[39m
+transforming...
+node.exe : Browserslist: browsers data (caniuse-lite) is 7 months old. 
+Please run:
+At line:1 char:1
++ & "C:\nvm4w\nodejs/node.exe" "C:\nvm4w\nodejs/node_modules/npm/bin/np 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Browserslist: b...ld. Pleas 
+   e run::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  npx update-browserslist-db@latest
+  Why you should do it regularly: 
+https://github.com/browserslist/update-db#readme
+[32mΓ£ô[39m 1616 modules transformed.
+[31mx[39m Build failed in 2.71s
+[31merror during build:
+[31m[vite:load-fallback] Could not load D:\AndroidApp\DiscordClone\VeoCa
+ll\veocall-firebase-p2p\veocall-pro\src/components/HomePage (imported by 
+src/pages/Index.tsx): ENOENT: no such file or directory, open 'D:\Android
+App\DiscordClone\VeoCall\veocall-firebase-p2p\veocall-pro\src\components\
+HomePage'[31m
+    at async open (node:internal/fs/promises:639:25)
+    at async Object.readFile (node:internal/fs/promises:1243:14)
+    at async Object.load (file:///D:/AndroidApp/DiscordClone/VeoCall/veoc
+all-firebase-p2p/veocall-pro/node_modules/vite/dist/node/chunks/dep-C6uTJ
+dX2.js:65341:25)
+    at async PluginDriver.hookFirstAndGetPlugin (file:///D:/AndroidApp/Di
+scordClone/VeoCall/veocall-firebase-p2p/veocall-pro/node_modules/rollup/d
+ist/es/shared/node-entry.js:20630:28)
+    at async file:///D:/AndroidApp/DiscordClone/VeoCall/veocall-firebase-
+p2p/veocall-pro/node_modules/rollup/dist/es/shared/node-entry.js:19750:33
+    at async Queue.work (file:///D:/AndroidApp/DiscordClone/VeoCall/veoca
+ll-firebase-p2p/veocall-pro/node_modules/rollup/dist/es/shared/node-entry
+.js:20840:32)[39m
