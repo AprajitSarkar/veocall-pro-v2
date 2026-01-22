@@ -1,0 +1,17 @@
+# Chrome Backup Secrets
+passwords.csv
+cookies.json
+Secrets/
+
+# Chrome Backup Archives
+chrome_backup.zip
+ChromeDataBackup/
+restore_temp/
+
+# Python
+__pycache__/
+*.pyc
+
+# System
+thumbs.db
+desktop.ini
